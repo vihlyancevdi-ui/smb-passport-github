@@ -1,0 +1,13 @@
+{
+  "name": "smb-passport",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Школа молодого бойца — интерактивный паспорт кандидата",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  }
+}

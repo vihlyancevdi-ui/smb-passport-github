@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Local database and persistent uploads/data
+data/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
+# Secrets / local config
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Backups / local artifacts
+*.bak
+START.txt
+DEPLOY_RAILWAY.txt
